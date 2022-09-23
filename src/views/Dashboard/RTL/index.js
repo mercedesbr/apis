@@ -20,13 +20,13 @@ import {
 } from "components/Icons/Icons.js";
 import React from "react";
 import { rtlDashboardTableData, rtlTimelineData } from "variables/general";
-import ActiveUsers from "../Dashboard/components/ActiveUsers";
-import BuiltByDevelopers from "../Dashboard/components/BuiltByDevelopers";
+import Novedades from "../Dashboard/components/Novedades";
 import MiniStatistics from "../Dashboard/components/MiniStatistics";
 import OrdersOverview from "../Dashboard/components/OrdersOverview";
 import Projects from "../Dashboard/components/Projects";
-import SalesOverview from "../Dashboard/components/SalesOverview";
-import WorkWithTheRockets from "../Dashboard/components/WorkWithTheRockets";
+import EstadisticaGeneral from "../Dashboard/components/EstadisticaGeneral";
+import Calendario from "../Dashboard/components/Calendario";
+import AllAsOne from "../Dashboard/components/AllAsOne";
 
 export default function Dashboard() {
   // Chakra Color Mode
@@ -66,21 +66,14 @@ export default function Dashboard() {
         templateRows={{ md: "1fr auto", lg: "1fr" }}
         my='26px'
         gap='24px'>
-        <BuiltByDevelopers
+        <Novedades
           title={"بناها المطورون"}
           name={"لوحة معلومات Purity UI"}
           description={
             "من الألوان والبطاقات والطباعة إلى العناصر المعقدة ، ستجد الوثائق الكاملة."
           }
-          image={
-            <Image
-              src={logoChakra}
-              alt='chakra image'
-              minWidth={{ md: "300px", lg: "auto" }}
-            />
-          }
         />
-        <WorkWithTheRockets
+        <AllAsOne
           backgroundImage={peopleImage}
           title={"العمل مع الصواريخ"}
           description={
@@ -93,12 +86,12 @@ export default function Dashboard() {
         templateRows={{ sm: "repeat(2, 1fr)", lg: "1fr" }}
         gap='24px'
         mb={{ lg: "26px" }}>
-        <ActiveUsers
+        <Calendario
           title={"المستخدمين النشطين"}
           percentage={23}
           chart={<BarChart />}
         />
-        <SalesOverview
+        <EstadisticaGeneral
           title={"نظرة عامة على المبيعات"}
           percentage={5}
           chart={<LineChart />}

@@ -9,6 +9,7 @@ import {
   Icon,
   Input,
   Link,
+  Select,
   Switch,
   Text,
   useColorModeValue,
@@ -52,7 +53,7 @@ function SignUp() {
         mt='6.5rem'
         mb='30px'>
         <Text fontSize='4xl' color='white' fontWeight='bold'>
-          Welcome!
+          ¡Bienvenido!
         </Text>
         <Text
           fontSize='md'
@@ -61,8 +62,7 @@ function SignUp() {
           mt='10px'
           mb='26px'
           w={{ base: "90%", sm: "60%", lg: "40%", xl: "30%" }}>
-          Use these awesome forms to login or create new account in your project
-          for free.
+         Cree un nuevo usuario de manera gratuita
         </Text>
       </Flex>
       <Flex alignItems='center' justifyContent='center' mb='60px' mt='20px'>
@@ -81,7 +81,7 @@ function SignUp() {
             fontWeight='bold'
             textAlign='center'
             mb='22px'>
-            Register With
+            Registrarse con
           </Text>
           <HStack spacing='15px' justify='center' mb='22px'>
             <Flex
@@ -152,14 +152,26 @@ function SignUp() {
           </Text>
           <FormControl>
             <FormLabel ms='4px' fontSize='sm' fontWeight='normal'>
-              Name
+              Nombre
             </FormLabel>
             <Input
               fontSize='sm'
               ms='4px'
               borderRadius='15px'
               type='text'
-              placeholder='Your full name'
+              placeholder='Your first name'
+              mb='24px'
+              size='lg'
+            />
+            <FormLabel ms='4px' fontSize='sm' fontWeight='normal'>
+              Apellido
+            </FormLabel>
+            <Input
+              fontSize='sm'
+              ms='4px'
+              borderRadius='15px'
+              type='text'
+              placeholder='Your last name'
               mb='24px'
               size='lg'
             />
@@ -176,7 +188,19 @@ function SignUp() {
               size='lg'
             />
             <FormLabel ms='4px' fontSize='sm' fontWeight='normal'>
-              Password
+              Telefono
+            </FormLabel>
+            <Input
+              fontSize='sm'
+              ms='4px'
+              borderRadius='15px'
+              type='number'
+              placeholder='Your phone number'
+              mb='24px'
+              size='lg'
+            />
+            <FormLabel ms='4px' fontSize='sm' fontWeight='normal'>
+              Contraseña
             </FormLabel>
             <Input
               fontSize='sm'
@@ -187,10 +211,22 @@ function SignUp() {
               mb='24px'
               size='lg'
             />
+            <FormControl  id="usuario">
+              <FormLabel ms='4px' fontSize='sm' fontWeight='normal' >Tipo de Usuario</FormLabel>
+              <Select ms='4px' fontSize='sm' fontWeight='normal' placeholder = "Seleccione tipo usuario" >
+              <option ms='4px' fontSize='sm' fontWeight='normal' > Profesor</option>
+              <option ms='4px' fontSize='sm' fontWeight='normal' > Alumno</option>
+              </Select>
+            </FormControl>
+            <FormControl>
+              <FormLabel>
+
+              </FormLabel>
+            </FormControl>
             <FormControl display='flex' alignItems='center' mb='24px'>
               <Switch id='remember-login' colorScheme='teal' me='10px' />
               <FormLabel htmlFor='remember-login' mb='0' fontWeight='normal'>
-                Remember me
+                Recuerdame
               </FormLabel>
             </FormControl>
             <Button
@@ -218,7 +254,7 @@ function SignUp() {
             maxW='100%'
             mt='0px'>
             <Text color={textColor} fontWeight='medium'>
-              Already have an account?
+              ¿Ya posee una cuenta?
               <Link
                 color={titleColor}
                 as='span'
