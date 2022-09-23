@@ -14,7 +14,7 @@ import React from "react";
 // react icons
 import { BsArrowRight } from "react-icons/bs";
 
-const BuiltByDevelopers = ({ title, name, description, image }) => {
+const Novedades = ({ title, name, description, image }) => {
   const textColor = useColorModeValue("gray.700", "white");
 
   return (
@@ -50,7 +50,7 @@ const BuiltByDevelopers = ({ title, name, description, image }) => {
                   transition='all .5s ease'
                   my={{ sm: "1.5rem", lg: "0px" }}
                   _hover={{ me: "4px" }}>
-                  Read more
+                  Conoce más
                 </Text>
                 <Icon
                   as={BsArrowRight}
@@ -82,4 +82,4 @@ const BuiltByDevelopers = ({ title, name, description, image }) => {
   );
 };
 
-export default BuiltByDevelopers;
+export default Novedades;
