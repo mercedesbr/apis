@@ -20,7 +20,7 @@ import {
 var dashRoutes = [
   {
     path: "/dashboard",
-    name: "Dashboard",
+    name: "Home",
     rtlName: "لوحة القيادة",
     icon: <HomeIcon color="inherit" />,
     component: Dashboard,
@@ -28,13 +28,21 @@ var dashRoutes = [
   },
   {
     path: "/tables",
-    name: "Tables",
+    name: "Clases",
     rtlName: "لوحة القيادة",
     icon: <StatsIcon color="inherit" />,
     component: Tables,
     layout: "/admin",
   },
   {
+    path: "/perfilclase",
+    name: "Clase de Matematica",
+    rtlName: "لوحة القيادة",
+    icon: <StatsIcon color="inherit" />,
+    component: PerfilClase,
+    layout: "/admin",
+  },
+  /*{
     path: "/billing",
     name: "Billing",
     rtlName: "لوحة القيادة",
@@ -49,16 +57,16 @@ var dashRoutes = [
     icon: <SupportIcon color="inherit" />,
     component: RTLPage,
     layout: "/rtl",
-  },
+  },*/
   {
-    name: "ACCOUNT PAGES",
+    name: "Personal",
     category: "account",
     rtlName: "صفحات",
     state: "pageCollapse",
     views: [
       {
         path: "/profile",
-        name: "Profile",
+        name: "Mi cuenta",
         rtlName: "لوحة القيادة",
         icon: <PersonIcon color="inherit" />,
         secondaryNavbar: true,
@@ -67,7 +75,7 @@ var dashRoutes = [
       },
       {
         path: "/signin",
-        name: "Sign In",
+        name: "Ingresar",
         rtlName: "لوحة القيادة",
         icon: <DocumentIcon color="inherit" />,
         component: SignIn,
@@ -75,7 +83,7 @@ var dashRoutes = [
       },
       {
         path: "/signup",
-        name: "Sign Up",
+        name: "Registrarse",
         rtlName: "لوحة القيادة",
         icon: <RocketIcon color="inherit" />,
         secondaryNavbar: true,

@@ -23,10 +23,10 @@ export function SidebarHelp(props) {
         <QuestionIcon color="teal.300" h="18px" w="18px" />
       </IconBox>
       <Text fontSize="sm" color="white" fontWeight="bold">
-        Need help?
+        ¿Necesitas ayuda?
       </Text>
       <Text fontSize="xs" color="white" mb="10px">
-        Please check our docs
+        Contactate con nosotros
       </Text>
       <Link
         w="100%"
@@ -48,7 +48,7 @@ export function SidebarHelp(props) {
           }}
           color="black"
         >
-          DOCUMENTATION
+          Ayuda
         </Button>
       </Link>
     </Flex>

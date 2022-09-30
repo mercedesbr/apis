@@ -50,7 +50,7 @@ function Profile() {
         <ProfileInformation
           title={"Profesor"}
           description={
-            "Hola! Soy Juan Manuel. Soy profesor de Matematica, estudie profesorado en matematica en la Universidad de Buenos Aires en el 2015..."            
+            "En esta materia vamos a aprendar lo básico de matemática"            
           }
           name={"Esthera Jackson"}
           mobile={"(44) 123 1234 123"}

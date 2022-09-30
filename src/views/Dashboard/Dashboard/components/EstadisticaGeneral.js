@@ -20,7 +20,7 @@ const EstadisticaGeneral = ({ title, percentage, chart }) => {
               color={percentage > 0 ? "green.400" : "red.400"}
               fontWeight='bold'>
             </Text>{" "}
-            Status YTD 2021 vs 2022
+            Status 2021 vs 2022
           </Text>
         </Flex>
       </CardHeader>

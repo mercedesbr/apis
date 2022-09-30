@@ -22,7 +22,7 @@ function Profile() {
       <Header
         backgroundHeader={ProfileBgImage}
         backgroundProfile={bgProfile}
-        name={"MATEMÁTICA"}
+        name={"Juan Manuel"}
         profesor={"Cifre, Juan Manuel"}
         tabs={[
           {
@@ -41,7 +41,7 @@ function Profile() {
       />
       <Grid templateColumns={{ sm: "1fr", xl: "repeat(3, 1fr)" }} gap='22px'>
         <PlatformSettings
-          title={"Clase"}
+          title={"Historia"}
           subtitle1={"Descripcion"}
           subtitle2={"Dificultad"}
           subtitle3={"Comentarios"}
