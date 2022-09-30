@@ -39,7 +39,7 @@ var dashRoutes = [
     name: "Clase de Matematica",
     rtlName: "لوحة القيادة",
     icon: <StatsIcon color="inherit" />,
-    component: PerfilClase,
+    component: Profile,
     layout: "/admin",
   },
   /*{
