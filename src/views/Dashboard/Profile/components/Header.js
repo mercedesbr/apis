@@ -145,6 +145,21 @@ const Header = ({
                 </Text>
               </Flex>
             </Button>
+            <Button p='0px' bg='white' _hover={{ bg: "none" }}>
+              <Flex
+                align='center'
+                w={{ lg: "105px" }}
+                borderRadius='15px'
+                justifyContent='center'
+                cursor='pointer'>
+                <Text
+                  fontSize='xs'
+                  color={textColor}
+                  fontWeight='bold'>
+                  {tabs[3].name}
+                </Text>
+              </Flex>
+            </Button>
           </Flex>
         </Flex>
       </Box>

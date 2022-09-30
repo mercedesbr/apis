@@ -10,9 +10,11 @@ function Calendario() {
 
   return (
     <Card  minHeight='200.5px' p='1.2rem'   >
-        <Calendar minHeight='200.5px'
+        <Calendar
+        w='100%'
         onChange={onChange} 
-        value={value} />
+        value={value} >
+        </Calendar>
     </Card>
   );
 }

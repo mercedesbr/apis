@@ -38,6 +38,10 @@ function Profile() {
             name: "Comentar",
             icon: <FaPenFancy w='100%' h='100%' />,
           },
+          {
+            name: "Registrarse",
+            icon: <FaPenFancy w='100%' h='100%' />,
+          },
         ]}
       />
       <Grid templateColumns={{ sm: "1fr", xl: "repeat(3, 1fr)" }} gap='22px'>
@@ -59,7 +63,7 @@ function Profile() {
         />
         <Comment
           title={"Comentarios"}
-          subtitle1={"John Cena"}
+          subtitle1={"John Cena:"}
           subtitle2={"¡Esta clase me parece genial!"}
         />
       </Grid>
