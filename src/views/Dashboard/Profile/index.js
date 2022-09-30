@@ -7,6 +7,7 @@ import { IoDocumentsSharp } from "react-icons/io5";
 import Header from "./components/Header";
 import PlatformSettings from "./components/PlatformSettings";
 import ProfileInformation from "./components/ProfileInformation";
+import Comment from "./components/Comment";
 import Projects from "./components/Projects";
 
 function Profile() {
@@ -22,7 +23,7 @@ function Profile() {
       <Header
         backgroundHeader={ProfileBgImage}
         backgroundProfile={bgProfile}
-        name={"Juan Manuel"}
+        name={"Matemática"}
         profesor={"Cifre, Juan Manuel"}
         tabs={[
           {
@@ -55,6 +56,11 @@ function Profile() {
           mobile={"(+54) 11 1235 4859"}
           email={"jmc@gmail.com"}
           location={"Barcelona"}
+        />
+        <Comment
+          title={"Comentarios"}
+          subtitle1={"John Cena"}
+          subtitle2={"¡Esta clase me parece genial!"}
         />
       </Grid>
 

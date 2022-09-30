@@ -73,7 +73,31 @@ function TablesTableRow(props) {
             fontWeight="bold"
             cursor="pointer"
           >
-            Edit
+            Ingresar
+          </Text>
+        </Button>
+      </Td>
+      <Td>
+        <Button p="0px" bg="transparent" variant="no-hover">
+          <Text
+            fontSize="md"
+            color="blue.400"
+            fontWeight="bold"
+            cursor="pointer"
+          >
+            Editar
+          </Text>
+        </Button>
+      </Td>
+      <Td>
+        <Button p="0px" bg="transparent" variant="no-hover">
+          <Text
+            fontSize="md"
+            color="red.400"
+            fontWeight="bold"
+            cursor="pointer"
+          >
+            Borrar
           </Text>
         </Button>
       </Td>
