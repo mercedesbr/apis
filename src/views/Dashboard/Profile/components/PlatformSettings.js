@@ -5,6 +5,7 @@ import Card from "components/Card/Card";
 import CardBody from "components/Card/CardBody";
 import CardHeader from "components/Card/CardHeader";
 import React from "react";
+import { Progress } from "@chakra-ui/react"
 
 const PerfilClase = ({ title, subtitle1, subtitle2, subtitle3 }) => {
   // Chakra color mode
@@ -21,8 +22,6 @@ const PerfilClase = ({ title, subtitle1, subtitle2, subtitle3 }) => {
           <Text fontSize='sm' color='gray.500' fontWeight='600' mb='20px'>
             {subtitle1}
           </Text>
-          <Flex align='center' mb='20px'>
-          </Flex>
           <Text
             fontSize='sm'
             color='gray.500'
@@ -30,6 +29,12 @@ const PerfilClase = ({ title, subtitle1, subtitle2, subtitle3 }) => {
             m='6px 0px 20px 0px'>
             {subtitle2}
           </Text>
+          <Text
+            m='6px 0px 20px 0px'>
+              <Progress colorScheme="teal" size="sm" width={300}  value={60} />
+          </Text>
+
+
           <Text
             fontSize='sm'
             color='gray.500'
