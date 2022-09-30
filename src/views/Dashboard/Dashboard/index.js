@@ -2,8 +2,6 @@
 import {
   Flex,
   Grid,
-  Image,
-  SimpleGrid,
   useColorModeValue,
 } from "@chakra-ui/react";
 // assets

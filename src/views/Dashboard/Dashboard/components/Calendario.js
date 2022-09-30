@@ -1,18 +1,20 @@
-
-import { Flex, SimpleGrid, Text, useColorModeValue } from "@chakra-ui/react";
+import React, { useState } from 'react';
+import Calendar from 'react-calendar';
+import { Box, Flex, Text, useColorModeValue } from "@chakra-ui/react";
+// Custom components
 import Card from "components/Card/Card.js";
-import CardBody from "components/Card/CardBody.js";
-import React from "react";
+import 'react-calendar/dist/Calendar.css';
 
-const Calendario = ({ title, percentage, chart }) => {
-  const iconBoxInside = useColorModeValue("white", "white");
-  const textColor = useColorModeValue("gray.700", "white");
+function Calendario() {
+  const [value, onChange] = useState(new Date());
+
   return (
-    <Card p='16px'>
-      <CardBody>
-      </CardBody>
+    <Card  minHeight='200.5px' p='1.2rem'   >
+        <Calendar minHeight='200.5px'
+        onChange={onChange} 
+        value={value} />
     </Card>
   );
-};
-
+}
 export default Calendario;
+

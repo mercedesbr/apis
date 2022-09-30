@@ -48,9 +48,9 @@ function Profile() {
           subtitle2={"APPLICATION"}
         />
         <ProfileInformation
-          title={"Profile Information"}
+          title={"Profesor"}
           description={
-            "Hi, I’m Esthera Jackson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality)."
+            "Hola! Soy Juan Manuel. Soy profesor de Matematica, estudie profesorado en matematica en la Universidad de Buenos Aires en el 2015..."            
           }
           name={"Esthera Jackson"}
           mobile={"(44) 123 1234 123"}

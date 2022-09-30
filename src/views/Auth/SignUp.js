@@ -18,6 +18,7 @@ import {
 import BgSignUp from "assets/img/BgSignUp.png";
 import React from "react";
 import { FaApple, FaFacebook, FaGoogle } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 function SignUp() {
   const titleColor = useColorModeValue("teal.300", "teal.200");
@@ -229,6 +230,7 @@ function SignUp() {
                 Recuerdame
               </FormLabel>
             </FormControl>
+            <NavLink to={'/admin/dashboard'}>
             <Button
               type='submit'
               bg='teal.300'
@@ -246,6 +248,7 @@ function SignUp() {
               }}>
               SIGN UP
             </Button>
+            </NavLink>
           </FormControl>
           <Flex
             flexDirection='column'

@@ -18,7 +18,7 @@ import { BsArrowRight } from "react-icons/bs";
 const AllAsOne = ({ title, description, backgroundImage }) => {
   const overlayRef = React.useRef();
   return (
-    <Card maxHeight='290.5px' p='1rem'>
+    <Card maxHeight='300.5px' p='1rem'>
       <CardBody
         p='0px'
         backgroundImage={backgroundImage}

@@ -8,8 +8,8 @@ function Tables() {
   return (
     <Flex direction='column' pt={{ base: "120px", md: "75px" }}>
       <Clases
-        title={"Authors Table"}
-        captions={["Materia", "Profesor", "Tipo", "Frecuencia", "Calificacion", ""]}
+        title={"Clases"}
+        captions={["Materia", "Profesor", "Tipo", "Frecuencia", "Calificacion"]}
         data={tablesTableData}
       />
     </Flex>
