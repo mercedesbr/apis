@@ -34,7 +34,7 @@ var dashRoutes = [
     component: Tables,
     layout: "/admin",
   },
-  {
+  /*{
     path: "/perfilclase",
     name: "Clase de Matematica",
     rtlName: "لوحة القيادة",
@@ -42,15 +42,15 @@ var dashRoutes = [
     component: Profile,
     layout: "/admin",
   },
-  /*{
+  {
     path: "/billing",
-    name: "Billing",
+    name: "Clase de ejemplo",
     rtlName: "لوحة القيادة",
     icon: <CreditIcon color="inherit" />,
     component: Billing,
     layout: "/admin",
-  },
-  {
+  },*/
+  /*{
     path: "/rtl-support-page",
     name: "RTL",
     rtlName: "آرتيإل",
@@ -66,7 +66,7 @@ var dashRoutes = [
     views: [
       {
         path: "/profile",
-        name: "Mi cuenta",
+        name: "Mi cuenta / Materia",
         rtlName: "لوحة القيادة",
         icon: <PersonIcon color="inherit" />,
         secondaryNavbar: true,

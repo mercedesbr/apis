@@ -32,7 +32,7 @@ const ProfileInformation = ({
           </Text>
           <Flex align='center' mb='18px'>
             <Text fontSize='md' color={textColor} fontWeight='bold' me='10px'>
-              Full Name:{" "}
+              Nombre completo:{" "}
             </Text>
             <Text fontSize='md' color='gray.500' fontWeight='400'>
               {name}
@@ -40,7 +40,7 @@ const ProfileInformation = ({
           </Flex>
           <Flex align='center' mb='18px'>
             <Text fontSize='md' color={textColor} fontWeight='bold' me='10px'>
-              Mobile:{" "}
+              Celular:{" "}
             </Text>
             <Text fontSize='md' color='gray.500' fontWeight='400'>
               {mobile}
@@ -56,7 +56,7 @@ const ProfileInformation = ({
           </Flex>
           <Flex align='center' mb='18px'>
             <Text fontSize='md' color={textColor} fontWeight='bold' me='10px'>
-              Location:{" "}
+              Pais:{" "}
             </Text>
             <Text fontSize='md' color='gray.500' fontWeight='400'>
               {location}
@@ -64,7 +64,7 @@ const ProfileInformation = ({
           </Flex>
           <Flex align='center' mb='18px'>
             <Text fontSize='md' color={textColor} fontWeight='bold' me='10px'>
-              Social Media:{" "}
+              Redes sociales:{" "}
             </Text>
             <Flex>
               <Link
