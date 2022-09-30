@@ -42,7 +42,7 @@ function SignIn() {
             p='48px'
             mt={{ md: "150px", lg: "80px" }}>
             <Heading color={titleColor} fontSize='32px' mb='10px'>
-              Welcome Back
+              Bienvenido
             </Heading>
             <Text
               mb='36px'
@@ -50,7 +50,7 @@ function SignIn() {
               color={textColor}
               fontWeight='bold'
               fontSize='14px'>
-              Enter your email and password to sign in
+              Ingresa tu email y contraseña
             </Text>
             <FormControl>
               <FormLabel ms='4px' fontSize='sm' fontWeight='normal'>
@@ -61,18 +61,18 @@ function SignIn() {
                 mb='24px'
                 fontSize='sm'
                 type='text'
-                placeholder='Your email adress'
+                placeholder='Tu email'
                 size='lg'
               />
               <FormLabel ms='4px' fontSize='sm' fontWeight='normal'>
-                Password
+                Contraseña
               </FormLabel>
               <Input
                 borderRadius='15px'
                 mb='36px'
                 fontSize='sm'
                 type='password'
-                placeholder='Your password'
+                placeholder='Tu contraseña'
                 size='lg'
               />
               <FormControl display='flex' alignItems='center'>
@@ -82,7 +82,7 @@ function SignIn() {
                   mb='0'
                   ms='1'
                   fontWeight='normal'>
-                  Remember me
+                  Recordarme
                 </FormLabel>
               </FormControl>
               <Button
@@ -100,7 +100,7 @@ function SignIn() {
                 _active={{
                   bg: "teal.400",
                 }}>
-                SIGN IN
+                INGRESAR
               </Button>
             </FormControl>
             <Flex
@@ -110,9 +110,9 @@ function SignIn() {
               maxW='100%'
               mt='0px'>
               <Text color={textColor} fontWeight='medium'>
-                Don't have an account?
+                ¿No posee una cuenta?
                 <Link color={titleColor} as='span' ms='5px' fontWeight='bold'>
-                  Sign Up
+                  Registrarse
                 </Link>
               </Text>
             </Flex>

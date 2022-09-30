@@ -89,7 +89,7 @@ export default function HeaderLinks(props) {
           fontSize="xs"
           py="11px"
           color={mainText}
-          placeholder="Type here..."
+          placeholder="Buscar..."
           borderRadius="inherit"
         />
       </InputGroup>
@@ -115,7 +115,7 @@ export default function HeaderLinks(props) {
             )
           }
         >
-          <Text display={{ sm: "none", md: "flex" }}>Sign In</Text>
+          <Text display={{ sm: "none", md: "flex" }}>Perfil</Text>
         </Button>
       </NavLink>
       <SidebarResponsive

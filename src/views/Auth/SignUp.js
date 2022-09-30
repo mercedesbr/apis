@@ -160,7 +160,7 @@ function SignUp() {
               ms='4px'
               borderRadius='15px'
               type='text'
-              placeholder='Your first name'
+              placeholder='Tu nombre'
               mb='24px'
               size='lg'
             />
@@ -172,7 +172,7 @@ function SignUp() {
               ms='4px'
               borderRadius='15px'
               type='text'
-              placeholder='Your last name'
+              placeholder='Tu apellido'
               mb='24px'
               size='lg'
             />
@@ -184,7 +184,7 @@ function SignUp() {
               ms='4px'
               borderRadius='15px'
               type='email'
-              placeholder='Your email address'
+              placeholder='Tu email'
               mb='24px'
               size='lg'
             />
@@ -196,7 +196,7 @@ function SignUp() {
               ms='4px'
               borderRadius='15px'
               type='number'
-              placeholder='Your phone number'
+              placeholder='Tu celular'
               mb='24px'
               size='lg'
             />
@@ -208,7 +208,7 @@ function SignUp() {
               ms='4px'
               borderRadius='15px'
               type='password'
-              placeholder='Your password'
+              placeholder='Tu contraseña'
               mb='24px'
               size='lg'
             />
@@ -246,7 +246,7 @@ function SignUp() {
               _active={{
                 bg: "teal.400",
               }}>
-              SIGN UP
+              Crear Cuenta
             </Button>
             </NavLink>
           </FormControl>
@@ -264,7 +264,7 @@ function SignUp() {
                 ms='5px'
                 href='#'
                 fontWeight='bold'>
-                Sign In
+                Ingresar
               </Link>
             </Text>
           </Flex>

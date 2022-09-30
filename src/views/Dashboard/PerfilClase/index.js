@@ -43,7 +43,7 @@ function Profile() {
       />
       <Grid templateColumns={{ sm: "1fr", xl: "repeat(3, 1fr)" }} gap='22px'>
         <PlatformSettings
-          title={"Platform Settings"}
+          title={"Configuracion"}
           subtitle1={"ACCOUNT"}
           subtitle2={"APPLICATION"}
         />
