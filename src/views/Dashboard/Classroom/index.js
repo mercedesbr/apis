@@ -9,9 +9,10 @@ import Conversations from "./components/Conversations";
 import Header from "./components/Header";
 import PlatformSettings from "./components/PlatformSettings";
 import ProfileInformation from "./components/ProfileInformation";
+import Comment from "./components/Comment";
 import Projects from "./components/Projects";
 
-function Profile() {
+function Classroom() {
   // Chakra color mode
   const textColor = useColorModeValue("gray.700", "white");
   const bgProfile = useColorModeValue(
@@ -24,8 +25,9 @@ function Profile() {
       <Header
         backgroundHeader={ProfileBgImage}
         backgroundProfile={bgProfile}
+        avatarImage={avatar4}
         name={"Matematica"}
-        profesor={"Cifre, Juan Manuel"}
+        email={"Cifre, Juan Manuel"}
         tabs={[
           {
             name: "Calificacion",
@@ -64,4 +66,4 @@ function Profile() {
   );
 }
 
-export default Profile;
+export default Classroom;

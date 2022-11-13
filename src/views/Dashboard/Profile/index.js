@@ -1,9 +1,11 @@
 // Chakra imports
 import { Flex, Grid, useColorModeValue } from "@chakra-ui/react";
+import avatar4 from "assets/img/avatars/avatar4.png";
 import ProfileBgImage from "assets/img/ProfileBackground.png";
 import React from "react";
 import { FaCube, FaPenFancy } from "react-icons/fa";
 import { IoDocumentsSharp } from "react-icons/io5";
+import Conversations from "./components/Conversations";
 import Header from "./components/Header";
 import PlatformSettings from "./components/PlatformSettings";
 import ProfileInformation from "./components/ProfileInformation";
@@ -23,8 +25,9 @@ function Profile() {
       <Header
         backgroundHeader={ProfileBgImage}
         backgroundProfile={bgProfile}
+        avatarImage={avatar4}
         name={"Matemática"}
-        profesor={"Cifre, Juan Manuel"}
+        email={"Cifre, Juan Manuel"}
         tabs={[
           {
             name: "Calificacion",

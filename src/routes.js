@@ -3,6 +3,7 @@ import Dashboard from "views/Dashboard/Dashboard";
 import Tables from "views/Dashboard/Tables";
 import Billing from "views/Dashboard/Billing";
 import RTLPage from "views/Dashboard/RTL";
+import Classroom from "views/Dashboard/Classroom";
 import Profile from "views/Dashboard/Profile";
 import SignIn from "views/Auth/SignIn.js";
 import SignUp from "views/Auth/SignUp.js";
@@ -15,6 +16,7 @@ import {
   DocumentIcon,
   RocketIcon,
   SupportIcon,
+  GlobeIcon,
 } from "components/Icons/Icons";
 
 var dashRoutes = [
@@ -34,15 +36,15 @@ var dashRoutes = [
     component: Tables,
     layout: "/admin",
   },
-  /*{
-    path: "/perfilclase",
+  {
+    path: "/classroom",
     name: "Clase de Matematica",
-    rtlName: "لوحة القيادة",
-    icon: <StatsIcon color="inherit" />,
-    component: Profile,
+    rtlName: "صفحات",
+    icon: <GlobeIcon color="inherit" />,
+    component: Classroom,
     layout: "/admin",
   },
-  {
+  /*{
     path: "/billing",
     name: "Clase de ejemplo",
     rtlName: "لوحة القيادة",
